@@ -31,7 +31,7 @@
         <div>
             <ul class="md:flex hidden px-7 gap-6">
                 <li>
-                    <a class="link link-underline link-underline-black no-underline text-white" href="">Home</a>
+                    <a class="link link-underline link-underline-black no-underline text-white" href="">Dashboard</a>
                 </li>
                 <li>
                     <a class="link link-underline link-underline-black no-underline text-white"
@@ -61,7 +61,7 @@
                 <img class="w-[100px]" src="../images/MATEGOODS_FONT_WHITE.png" alt="">
             </li>
             <li class="py-3 px-5 cursor-pointer text-white hover:bg-white hover:text-black ease-in duration-200">
-                <a href="">Home</a>
+                <a href="">Dashboard</a>
             </li>
             <li class="py-3 px-5 cursor-pointer text-white hover:bg-white hover:text-black ease-in duration-200">
                 <a href="">Products</a>
