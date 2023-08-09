@@ -24,14 +24,16 @@
 <body class="bg-[#000] font-Poppins font-regular">
 
     {{-- Navbar Section --}}
-    <nav class="fixed top-0 z-50 w-full flex mx-auto justify-between items-center bg-black">
+    <nav
+        class="fixed top-[-1px] z-50 w-full flex mx-auto justify-between items-center bg-black bg-opacity-80 backdrop-blur-md">
         <div class="px-3">
             <img class="w-[50px] cursor-pointer" src="../images/logoWhite.png" alt="">
         </div>
         <div>
             <ul class="md:flex hidden px-7 gap-6">
                 <li>
-                    <a class="link link-underline link-underline-black no-underline text-white" href="">Dashboard</a>
+                    <a class="link link-underline link-underline-black no-underline text-white"
+                        href="">Dashboard</a>
                 </li>
                 <li>
                     <a class="link link-underline link-underline-black no-underline text-white"
@@ -78,7 +80,7 @@
     {{-- Carousel Section --}}
     <div class="carousel w-full ">
         <div id="slide1" class="carousel-item relative w-full">
-            <img src="../images/21.jpg" class="w-full mt-[3rem] xl:mt-[3rem]" />
+            <img src="../images/21.jpg" class="w-full mt-[49px]" />
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-[9rem] md:top-1/2">
                 <a href="#slide4">
                     <box-icon class="fill-white opacity-75" animation="fade-left-hover" size="lg"
@@ -89,7 +91,7 @@
             </div>
         </div>
         <div id="slide2" class="carousel-item relative w-full">
-            <img src="../images/banner2.svg" class="w-full mt-[3rem] xl:mt-[3rem]" />
+            <img src="../images/banner2.svg" class="w-full mt-[49px]" />
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-[9rem] md:top-1/2">
                 <a href="#slide1" class="">
                     <box-icon class="fill-white opacity-75" animation="fade-left-hover" size="lg"
@@ -100,7 +102,7 @@
             </div>
         </div>
         <div id="slide3" class="carousel-item relative w-full">
-            <img src="../images/banner1.svg" class="w-full mt-[3rem] xl:mt-[3rem]" />
+            <img src="../images/banner1.svg" class="w-full mt-[49px]" />
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-[9rem] md:top-1/2">
                 <a href="#slide2" class="">
                     <box-icon class="fill-white opacity-75" size="lg" animation="fade-left-hover"
@@ -111,7 +113,7 @@
             </div>
         </div>
         <div id="slide4" class="carousel-item relative w-full">
-            <img src="../images/22.jpg" class="w-full mt-[3rem] xl:mt-[3rem]" />
+            <img src="../images/22.jpg" class="w-full mt-[49px]" />
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-[9rem] md:top-1/2">
                 <a href="#slide3" class="">
                     <box-icon class="fill-white opacity-75" size="lg" animation="fade-left-hover"
@@ -125,7 +127,7 @@
 
     {{-- Hero Section --}}
     <div class="bg-black">
-        <div class="py-5 xl:py-10 mx-5 flex-col lg:flex-row">
+        <div class="py-5 xl:py-10 xl:mx-auto mx-4 md:mx-24 xl:max-w-[76rem] flex-col lg:flex-row">
             <div>
                 <h1 class="text-2xl text-white text-left font-bold">The Latest</h1>
                 <hr class="mb-5">
