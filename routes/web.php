@@ -5,6 +5,7 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,16 +23,11 @@ Route::get('/', function () {
 
 Route::get('/dashboard', function () {
     return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+})->middleware(['auth', 'role:user'])->name('dashboard');
 
-// Route::get('/userprofile', [DashboardController::class, 'Index']);
-
-Route::middleware(['auth'])->group(function () {
-    Route::controller(DashboardController::class)->group(function () {
-        Route::get('/admin/dashboard', 'Index');
-    });
+Route::middleware(['auth', 'role:admin'])->group(function () {
+    Route::get('/admin/dashboard', [DashboardController::class, 'Index']); // Ganti 'Index' dengan 'index'
 });
-
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

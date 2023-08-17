@@ -1,1 +1,1 @@
-<h2>hi form dashboard</h2>
+<h2>hi admin Dashboard</h2>
