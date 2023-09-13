@@ -25,7 +25,7 @@
 
     {{-- Navbar Section --}}
     <nav
-        class="fixed top-[-1px] z-50 w-full flex mx-auto justify-between items-center bg-black bg-opacity-80 backdrop-blur-lg">
+        class="fixed top-[-1px] z-50 w-full flex mx-auto justify-between items-center bg-black bg-opacity-80 backdrop-blur-md">
         <div class="px-3">
             <img class="w-[50px] cursor-pointer" src="../images/logoWhite.png" alt="">
         </div>
@@ -130,7 +130,7 @@
         <div class="py-5 xl:py-10 xl:mx-auto mx-4 md:mx-24 xl:max-w-[76rem] flex-col lg:flex-row">
             <div>
                 <h1 class="text-2xl text-white text-left font-bold">The Latest</h1>
-                <hr class="border-t-1 border-white mt-1 mb-5">
+                <hr class="mb-5">
                 <img src="../images/21.jpg" class="w-auto mb-5 rounded-lg shadow-2xl" />
                 <h2 class="text-3xl font-bold text-white">Box Office News!</h2>
                 <p class="py-6 text-white">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
@@ -144,7 +144,7 @@
     <div class="bg-white">
         <div class="mx-auto max-w-2xl px-4 xl:py-10 py-5 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
             <h2 class="text-2xl font-bold tracking-tight text-gray-900">Featured Products</h2>
-            <hr class="border-t-1 mt-1 mb-5 border-black">
+            <hr class="bg-black">
 
             <div class="mt-6 grid gap-x-6 gap-y-10 grid-cols-2 xl:grid-cols-4 md:grid-cols-3">
                 <!-- Card 1 -->
